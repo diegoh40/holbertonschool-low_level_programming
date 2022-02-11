@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * using printf
- *
+ * main- using printf
  * Return: 0
  */
 int main(void)
