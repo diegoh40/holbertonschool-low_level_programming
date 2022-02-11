@@ -2,7 +2,7 @@
 
 /**
  * main -print phrase
- *
+ * Return: 0
  */
 
 int main (void)
