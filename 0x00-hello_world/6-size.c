@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - display size of various types
@@ -18,5 +18,5 @@ int main(void)
     printf("Size of a long long int: %d byte(s)\n", sizeof(n));
     printf("Size of a float: %d byte(s)\n", sizeof(x));
     
-    return 0;
+    return (0);
 }
