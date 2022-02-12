@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - program that prints the alphabet 
- * Return: Aways 0 (Sucess)
+ * main - program that prints the alphabet
+ * Return:0
  */
 int main(void)
 {
