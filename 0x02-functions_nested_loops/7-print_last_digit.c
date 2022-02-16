@@ -5,21 +5,19 @@
  *@n the int that extract the last digit
  * Return: last digit value
  */
-
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
-  int h;
-  if (n < 0)
-    n = n -n;
-  
-  h = n % 10;
+	int h;
 
-  if (h < 0)
+	if (n < 0)
+		n = -n;
 
-    h = -h;
+	h = n % 10;
 
-  _putchar(h + '0');
+	if (h < 0)
+		h = -h;
 
-  return (h);
+	_putchar(h + '0');
 
+	return (h);
 }
