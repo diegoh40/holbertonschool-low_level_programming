@@ -2,7 +2,7 @@
 
 /**
  *print_last_digit - Write a function that prints the last digit of a number.
- *@n the int that extract the last digit
+ *@n: the int that extract the last digit
  * Return: last digit value
  */
 int print_last_digit(int n)
