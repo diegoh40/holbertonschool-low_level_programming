@@ -6,19 +6,19 @@
  * followed by a new line
  * @n: print from this number
  */
-void print_to_98(int g)
+void print_to_98(int n)
 {
-	if (g >= 98)
+	if (n >= 98)
 	{
-		while (g > 98)
-			printf("%d, ", g--);
-		printf("%d\n", g);
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
 
 	else
 	{
-		while (g < 98)
-			printf("%d, ", g++);
-		printf("%d\n", g);
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
