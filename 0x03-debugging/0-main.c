@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - assigns a random number
+ * positive_or_negative - assigns a zero
  * Return: Always 0 (Success)
  */
 void positive_or_negative(int n)

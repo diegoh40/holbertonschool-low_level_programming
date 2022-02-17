@@ -3,6 +3,12 @@
 
 #include <stdio.h>
 
-void positive_or_negative(int i);
+/**
+ * file: main.h
+ * Auth: Diego Hernandez
+ * Desc: Header files containing declarations for all funcion
+ */
+
+void positive_or_negative(int n);
 
 #endif
