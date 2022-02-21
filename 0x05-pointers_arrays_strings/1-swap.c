@@ -3,7 +3,8 @@
 
 /**
  * swap_int - swaps the values of two integers
- *
+ *@a: firt integer
+ *@b: Second integer
  * Return: 0
  */
 void swap_int(int *a, int *b)
@@ -15,4 +16,3 @@ c = *a;
 *b = c;
 
 }
-
