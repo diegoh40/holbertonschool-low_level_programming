@@ -7,7 +7,7 @@
  *@b: Second integer
  * Return: 0
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 chr *s;
 int len;
