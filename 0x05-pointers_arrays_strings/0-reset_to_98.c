@@ -9,17 +9,13 @@
 void reset_to_98(int *n);
 {
 int n;
+int *p;
 
 n = 402;
- {    
-printf("n=%d\n", n);
- }
- 
-reset_to_98(&n);
-*n = 98;
- {   
-printf("*n=%d\n", *n);
- }
-return (0);
+p = &n;
+printf("Value of 'n': %d\n", n);
 
+*p = 98;
+printf("Value of 'n': %d\n", n);
+return (0);
 }
