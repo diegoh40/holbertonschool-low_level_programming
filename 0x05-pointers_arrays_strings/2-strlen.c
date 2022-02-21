@@ -3,11 +3,15 @@
 
 /**
  * _strlen- swaps the values of two integers
- *@a: firt integer
- *@b: Second integer
+ *@s: the string to be measured
  * Return: 0
  */
 int _strlen(char *s)
 {
-_strlen(s);
+int length = 0;
+
+while (*s++)
+length++;
+
+return (length);
 }
