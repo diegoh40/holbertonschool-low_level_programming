@@ -3,19 +3,12 @@
 
 /**
  * reset_to_98 - takes a pointer to an int as parameter and updates 
- *
+ *@n: pointer
  * Return: Always 0.
  */
 void reset_to_98(int *n)
 {
-int n;
-int *p;
 
-n = 402;
-p = &n;
-_putchar("Value of 'n': %d\n", n);
+*n = 98;
 
-*p = 98;
-_putchar("Value of 'n': %d\n", n);
-return (0);
 }
