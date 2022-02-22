@@ -1,21 +1,19 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
- * puts - function that prints every other character of a string
- * @s - string
- * @i - count 
- * Retur: 0
+ * puts2 - function that prints every other character of a string
+ * @str: string
+ * Return: 0
  */
 void puts2(char *str) {
-    *str = "0123456789";
-    char s[40] = "";
+int index = 0;
+len = 0;
 
-    for(int i = 0; i < strlen(str); i+=2){
-        putchar(str[i]);
-        s[i/2]=str[i];
-    }
-    return 0;
+while (str[index++])
+len++;
+for(index i = 0; index < len; index += 2)
+_putchar(str[index]);
+	
+_putchar('\n');
 }
-
