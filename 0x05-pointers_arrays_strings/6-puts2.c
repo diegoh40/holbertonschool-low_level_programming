@@ -7,11 +7,11 @@
  * @s - string
  * Retur: 0
  */
-void puts2(char *str) {
-    *str = "0123456789";
+void main(void) {
+    char* str = "0123456789";
     char s[40] = "";
 
-    for(int i = 0; i < strlen(p); i+=2){
+    for(int i = 0; i < strlen(str); i+=2){
         _putchar(p[i]);
         s[i/2]=p[i];
     }
