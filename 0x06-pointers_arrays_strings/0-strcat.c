@@ -3,8 +3,8 @@
 
 /**
  * _strcat - function that concatenates two strings
- *@len: variable indice
- *@j: variable indice
+ *@dest: variable indice
+ *@src: variable indice
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
@@ -22,4 +22,3 @@ src[len] = dest[j];
 }
 src[len] = '\0';
 }
-
