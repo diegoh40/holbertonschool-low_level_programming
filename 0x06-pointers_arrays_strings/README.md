@@ -1,0 +1,2 @@
+0x06. C - More pointers, arrays and strings
+Pointers, arrays and strings Pointers and how to use them Arrays and how to use them Differences between pointers and arrays Use strings and how to manipulate them Scope of variables
